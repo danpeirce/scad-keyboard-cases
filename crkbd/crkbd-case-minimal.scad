@@ -13,19 +13,20 @@ include <crkbd-common.scad>
 theme = 3;
 nrfmicro = false;   // If true, make adjustments for nrfmicro and small lipo battery, rather than pro micro.
 top_mount_mcu = false;
-top_mount_reset = false;
+top_mount_reset = true;
 wall_thickness = 2.5;
 plate_thickness = 4;   // (5mm - max diode height)
-bottom_case_height = 0;
+bottom_case_height = 4;
 window_z = top_mount_mcu ? 13 : 6;
 
-mcu_size = [20.0, 35, 13.2];  // Adjusted depth according to sockets etc
+//mcu_size = [20.0, 35, 13.2];  // Adjusted depth according to sockets etc
+mcu_size = [21.5, 51.5, 13.2];  // Adjusted depth according to sockets etc
 
-battery_bay = 0; // 0 for one, else the index of one of the entries below for various size batteries
+battery_bay = 1; // 0 for one, else the index of one of the entries below for various size batteries
 battery_bays = [
                 /* Hole size, Offset */
                 [], /* Dummy entry */
-                [[66.5, 15, 9], [-8, -mcu_size.y+0.5, 0]], /* (551148 helicopter batteries, 55mm x 11mm x 4.8mm, 200mAh) */
+                [[75, 25, 7], [-8, -mcu_size.y/2+5+0.5, 0]], /* (551148 helicopter batteries, 55mm x 11mm x 4.8mm, 200mAh) */
                 [[56, 33, 9], [-mcu_size.x+4.5, -mcu_size.y/2-1.4, 0]] /* (403048 lipo, 40mm x 30mm x 4.8mm, 600mAh) */
                 ];
 
@@ -37,12 +38,12 @@ screw_head_rad = 5.4 / 2;
 //screw_head_depth = 1.5;
 screw_head_depth = 0;
 
-//standoff_rad = 4.0 / 2;
+standoff_rad = 4.0 / 2;
 bottom_screws = true; // Default is to screw down from the top
 
 tent_angle = 10;
 
-hipro_height = 9.5;   // 0 for minimal, ~9.5 for flush, ~15 for hipro
+hipro_height = 15;   // 0 for minimal, ~9.5 for flush, ~15 for hipro
 
 micro_usb_hole_width = 14;
 micro_usb_hole_height = 8;
@@ -130,7 +131,8 @@ module crkbd_bottom_case() {
 
 
 part = "assembly";
-explode = 0;
+
+explode = 1;
 cross_section = false;
 depressed = false;
 

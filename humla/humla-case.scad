@@ -129,7 +129,7 @@ module bumper_case_case() {
     }
 }
 
-part = "laptop-adaptor";
+part = "assembled";
 explode = 1;
 if (part == "laptop-adaptor") {
     rotate(a = [0, 180, 45]) translate(v = [-135, 70, 0])

@@ -182,7 +182,7 @@ module crkbd_carrier_profile(expand = 4, holder = false) {
 
 
 part = "assembly";
-explode = 0.0;
+explode = 3.0;
 cross_section = false;
 depressed = false;
 
