@@ -57,6 +57,14 @@ module crkbd_top_case() {
     top_plate(left_keys, crkbd_screw_holes) crkbd_left_top();
 }
 
+module crkbd_top_case_new() {
+    union() { 
+        crkbd_top_case(); 
+        translate([-0.65,-1,-0.005]) linear_extrude(plate_thickness-0.01)
+           crkbd_left_top_window(); 
+    }
+}
+
 module crkbd_bottom_case() {
     outer_height = 1.25;
     standoff = 2.2;
@@ -130,7 +138,7 @@ module crkbd_bottom_case() {
 }
 
 
-part = "assembly";
+part = "top";
 
 explode = 1;
 cross_section = false;
@@ -152,7 +160,7 @@ if (part == "outer") { // To preview the outer profile, key hole, and screw hole
     
 } else if (part == "top") {
         translate(crkbd_center_offset)
-        render() crkbd_top_case();
+        render() crkbd_top_case_new();
     //%translate([0, 0, plate_thickness + -7 * explode]) key_holes(left_keys, "keycap");
 
 } else if (part == "bottom") {
@@ -166,7 +174,7 @@ if (part == "outer") { // To preview the outer profile, key hole, and screw hole
         translate([-80, 60, plate_thickness]) {
                 %translate([0, 0, plate_thickness - (depressed ? 4 : 0) + 30 * explode]) key_holes(left_keys, "keycap");
                 %translate([0, 0, plate_thickness + 20 * explode]) key_holes(left_keys, "switch");
-                crkbd_top_case();
+                crkbd_top_case_new();
 
                 %translate([0, 0, -2.5 - 5 * explode]) crkbd_pcb_assembly(top_mount_mcu = top_mount_mcu, top_mount_reset = top_mount_reset, window_z = window_z);
 
