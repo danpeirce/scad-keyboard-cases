@@ -7,10 +7,12 @@ left_keys = [ for (i = crkbd_layout) if (key_pos(i).x < 8) i ];
 crkbd_pcb = [134.65, 91.7, 1.65];
 crkbd_first_offset = [-9.688, 26.449, 0];  // Coords to put top left corner of PCB at origin
 crkbd_window_size = [20.708, 60.85];
+//crkbd_window_size = [25, 70];
 
 crkbd_center_offset = crkbd_first_offset + [-crkbd_pcb.x, crkbd_pcb.y - 30] / 2; // To approx center on origin
 
-mcu_size = [19.5, 34.5, 9.8];  // Adjust depth according to sockets etc
+//mcu_size = [19.5, 34.5, 9.8];  // Adjust depth according to sockets etc
+mcu_size = [31+3, 51+3, 9.8];  // Adjust depth according to sockets etc
 
 reset_size = [3.75, 6.25, 3.25];
 reset_y_off = -38.6;  // Y offset relative to top right corner
@@ -40,9 +42,10 @@ module crkbd_left_top_window() {
     import(file = "orig/crkbd-left-top-window.svg");
 }
 module crkbd_left_bottom() {
+    translate([9.0, -282])
     scale([svg_scale, svg_scale, 0]) 
-    translate([11.9, -136.8])
-    import(file = "orig/crkbd-left-bottom.svg");
+    //translate([11.9, -136.8])
+    import(file = "orig/crkbd-left-bottom-mods.svg");
 }
 module crkbd_left_bottom_mod() {
     scale([svg_scale, svg_scale, 0]) 
