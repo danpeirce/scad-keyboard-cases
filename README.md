@@ -11,9 +11,9 @@ https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 * The Raspberry Pi Pico is a larger board that the one typically used on a Crone Keyboard. The outline of the board needed 
   to be expanded in the region of the MCU to accommodate the larger size.
     * Old Outline of Case
-	  !()[crkbd/orig/crkbd-left-bottom.svg]
+	  (crkbd/orig/crkbd-left-bottom.svg)[crkbd/orig/crkbd-left-bottom.svg]
     * New Outline of Case
-	  !()[crkbd/orig/crkbd-left-bottom-mods.svg]
+	  (crkbd/orig/crkbd-left-bottom-mods.svg)[crkbd/orig/crkbd-left-bottom-mods.svg]
 	 
 # Pico-Crone Keyboard
 
