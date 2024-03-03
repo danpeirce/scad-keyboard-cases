@@ -28,5 +28,5 @@ https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 
 ![](images/pico-corne-left-build02-und.png)
 
-![](images/pico-corne-left-build02-und-w.png)
+![](images/pico-corne-left-build03-und-w.png)
 
