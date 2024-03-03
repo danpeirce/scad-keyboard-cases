@@ -15,9 +15,18 @@ https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
     * New Outline of Case
 	  ![crkbd/orig/crkbd-left-bottom-mods.svg](crkbd/orig/crkbd-left-bottom-mods.svg)
 	 
-# Pico-Corne Keyboard
+## Pico-Corne Keyboard
 
 ![](crkbd/crkbd-case-top-of-top.png)
 
 
 ![](crkbd/crkbd-case-bottom-of-top.png)
+
+### Under Construction
+
+![](images/pico-corne-left-build01.png)
+
+![](images/pico-corne-left-build02-und.png)
+
+![](images/pico-corne-left-build02-und-w.png)
+
