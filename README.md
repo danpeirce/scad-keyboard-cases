@@ -28,7 +28,7 @@ https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 
 * Progress
 
-![](images/pico-corne-left-build02.png)
+![](images/pico-corne-left-build03.png)
 
 ![](images/pico-corne-left-build02-und.png)
 
