@@ -35,3 +35,7 @@ https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 ![](images/pico-corne-left-build03-und-w.png)
 
 ![](images/pico-corne-left-build04-und-w.png)
+
+## Firmware
+
+Firmware for this project can be found at https://github.com/danpeirce/pico-corne 
