@@ -115,7 +115,7 @@ module crkbd_bottom_case(raised = raised) {
         union() {
             color(case_color) linear_extrude(height = wall_thickness, center = false, convexity = 3) crkbd_left_bottom();
             translate([0,0,wall_thickness]) 
-              screw_positions(crkbd_screw_holes) cylinder(r1 = 3+2+0.5,r2 = screw_rad+0.3+1.2*2, h = depth_offset, $fn=20);
+              screw_positions(crkbd_screw_holes) cylinder(r1 = 3+2+0.5,r2 = screw_rad+0.3+1.2*2, h = depth_offset-2.4, $fn=20);
         }
             translate([0, 0, -wall_thickness]) 
               screw_positions(crkbd_screw_holes) cylinder(r = screw_rad+0.3, h = 4+wall_thickness+depth_offset, $fn=20);
