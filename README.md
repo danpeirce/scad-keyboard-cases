@@ -10,7 +10,7 @@ also adjusted the case to permit the use of the Raspberry Pi Pico microcontrolle
 
 https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 
-
+Files created prior to 2024 are from the original repository. Files specific to this fork are all modified or created in 2024.
 	 
 ## Pico-Corne Keyboard
 
@@ -35,6 +35,10 @@ https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 ## Firmware
 
 Firmware for this project can be found at https://github.com/danpeirce/pico-corne 
+
+## Keycaps
+
+See [https://www.printables.com/model/808496-flat-top-keycaps-mx-cherry-with-cutouts-for-m25-sc](https://www.printables.com/model/808496-flat-top-keycaps-mx-cherry-with-cutouts-for-m25-sc)
 
 ## Accommodate a Larger Microcontroller Board
 
