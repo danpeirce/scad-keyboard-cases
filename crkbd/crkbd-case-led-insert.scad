@@ -46,8 +46,8 @@ module simple_micro_usb_hole(hole = true) {
 module simple_trrs_hole(hole = true) {
     color("silver") {
         if (hole) {
-            translate([0, 1, pcb_thickness+micro_usb_socket_height/2]) rotate([90, 0, 0])
-                roundedcube([micro_usb_hole_width, micro_usb_hole_height, 10], r=1.5, center=true, $fs=1);
+            translate([0, 1+3.5, pcb_thickness+micro_usb_socket_height/2]) rotate([90, 0, 0])
+                roundedcube([micro_usb_hole_width, micro_usb_hole_height, 17], r=1.5, center=true, $fs=1);
         }
     }
 }
@@ -234,7 +234,7 @@ if (part == "outer") { // To preview the outer profile, key hole, and screw hole
     #key_holes(left_keys, "plate");
     
 } else if (part == "top") {
-    /* rotate([180, 0, 90]) translate([0, 0, -plate_thickness]) translate([-80, 60, 0])
+     /*rotate([180, 0, 90]) translate([0, 0, -plate_thickness]) translate([-80, 60, 0])
         render() difference() {
             crkbd_top_case();
             translate([0, 0, -1]) cylinder(h=30, r=2.1/2, center=false);

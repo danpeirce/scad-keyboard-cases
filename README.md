@@ -19,6 +19,7 @@ Files created prior to 2024 are from the original repository. Files specific to 
 * Light from RPi Pico board piped outside case by short piece of clear PETG filament.
 * Covers over Pico board area allow for customization without reprinting whole case. Also contain side
   vents for convection.
+* Use crkbd/stls/crkbd-case-top-pico.stl for left side keyboard. The same file can be mirrored in slicing software to create right side case.
 
 ### Construction
 

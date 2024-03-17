@@ -45,10 +45,11 @@ module simple_micro_usb_hole(hole = true) {
 }
 module simple_trrs_hole(hole = true) {
     color("silver") {
-        if (hole) {
-            translate([0, 1, pcb_thickness+micro_usb_socket_height/2]) rotate([90, 0, 0])
-                roundedcube([micro_usb_hole_width, micro_usb_hole_height, 10], r=1.5, center=true, $fs=1);
-        }
+         if (hole) {
+            translate([0, 1+3.5, pcb_thickness+micro_usb_socket_height/2]) rotate([90, 0, 0])
+                
+            roundedcube([micro_usb_hole_width, micro_usb_hole_height, 17], r=1.5, center=true, $fs=1);
+        } 
     }
 }
 
@@ -68,7 +69,7 @@ module crkbd_case_holes(preview = false) {
         if (preview) {
             %simple_trrs_hole(hole = false);
         }
-    }
+    } 
    /* if (preview) {
         %translate([0, 0, plate_thickness - cherry_switch_depth - pcb_thickness])
             crkbd_pcb_assembly();
