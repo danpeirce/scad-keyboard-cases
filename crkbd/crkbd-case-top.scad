@@ -2,7 +2,6 @@
 // Simple Tented Corne Keyboard case
 //
 // * Single piece combined top plate/outer/tent supports
-// * Simple flat transparent bottom (or cut from acrylic)
 //
 ///////////////////////////////////////////////////
 
@@ -14,7 +13,7 @@ theme = 3;
 wall_thickness = 2.5;
 plate_thickness = 3.2;   // (5mm - max diode height)
 depth_offset = 5 + 2 + 2 + 5;       // How much of side wall to include below top plate
-bottom_case_height = 5 + 2 + 2; // 11;  // Enough room to house electonics
+bottom_case_height = 5 + 2 + 2; // 11;  // Enough room to house electronics
 screw_rad = 3.0 / 2;
 tent_attachment_width = 16;
 micro_usb_hole_width = 14;
