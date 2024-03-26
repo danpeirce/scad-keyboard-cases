@@ -1,6 +1,6 @@
 # Corne Inspired Keyboard Case Modified to use a Raspberry Pi Pico
 
-![](images/pico-corne-left-build05.png)
+![](images/pico-corne-left-build05.png) ![](pico-corne-right-build01.png)
 
 This repository is a fork of https://github.com/Lenbok/scad-keyboard-cases .
 That repository is set up to allow the generation of generalized keyboard cases using
@@ -13,8 +13,7 @@ https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 Files created prior to 2024 are from the original repository. Files specific to this fork are all modified or created in 2024.
 	 
 ## Pico-Corne Keyboard
-
-![](images/pico-corne-left-build04.png)
+![](images/pico-corne-left-build04.png) 
 
 * Light from RPi Pico board piped outside case by short piece of clear PETG filament.
 * Covers over Pico board area allow for customization without reprinting whole case. Also contain side
@@ -39,7 +38,13 @@ Firmware for this project can be found at https://github.com/danpeirce/pico-corn
 
 ## Keycaps
 
-See [https://www.printables.com/model/808496-flat-top-keycaps-mx-cherry-with-cutouts-for-m25-sc](https://www.printables.com/model/808496-flat-top-keycaps-mx-cherry-with-cutouts-for-m25-sc)
+Initially used the following keycaps
+ 
+* [https://www.printables.com/model/808496-flat-top-keycaps-mx-cherry-with-cutouts-for-m25-sc](https://www.printables.com/model/808496-flat-top-keycaps-mx-cherry-with-cutouts-for-m25-sc)
+
+but later found these ones which suited my split keyboard better:
+
+* [https://www.printables.com/model/183680-flat-top-cherry-mx-compatible-keycaps](https://www.printables.com/model/183680-flat-top-cherry-mx-compatible-keycaps)
 
 ## Accommodate a Larger Microcontroller Board
 
