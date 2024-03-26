@@ -44,7 +44,7 @@ Initially used the following keycaps
 
 but later found these ones which suited my split keyboard better:
 
-* [https://www.printables.com/model/183680-flat-top-cherry-mx-compatible-keycaps](https://www.printables.com/model/183680-flat-top-cherry-mx-compatible-keycaps)
+* [https://www.printables.com/model/821325-cherry-mx-compatible-keycaps-flat-top](https://www.printables.com/model/821325-cherry-mx-compatible-keycaps-flat-top)
 
 ## Accommodate a Larger Microcontroller Board
 
