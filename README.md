@@ -1,6 +1,6 @@
 # Corne Inspired Keyboard Case Modified to use a Raspberry Pi Pico
 
-![](images/pico-corne-left-build05.png) ![](pico-corne-right-build01.png)
+![](images/pico-corne-left-build05.png) ![](images/pico-corne-right-build01.png)
 
 This repository is a fork of https://github.com/Lenbok/scad-keyboard-cases .
 That repository is set up to allow the generation of generalized keyboard cases using
