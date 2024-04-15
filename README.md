@@ -4,11 +4,15 @@
 
 This repository is a fork of https://github.com/Lenbok/scad-keyboard-cases .
 That repository is set up to allow the generation of generalized keyboard cases using
-a python script to generate a base OpenSCAD design. In this fork of the Lenbok repository some
-steps were skipped there was already and example of a Corne case. I wanted that basic physical layout but 
-also adjusted the case to permit the use of the Raspberry Pi Pico microcontroller board.
+a python script to generate a base OpenSCAD design. There was already and example of a Corne case in the original repository so I have used that example as a 
+starting point. I wanted that basic physical switch layout but 
+also adjusted the case to permit the use of the Raspberry Pi Pico microcontroller board. The Pico required more space than the orignal MCU.
 
-https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
+Standoffs and holes for mounting the Pico board were added. Additional mounting holes were added for small removable covers to allow for future customization.
+I am using the two sides of the keyboard without direct connection between them. One customization could possibly be to add connectors for connection to the other 
+side of the keyboard.
+
+* https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 
 Files created prior to 2024 are from the original repository. Files specific to this fork are all modified or created in 2024.
 	 
@@ -17,8 +21,9 @@ Files created prior to 2024 are from the original repository. Files specific to 
 
 * Light from RPi Pico board piped outside case by short piece of clear PETG filament.
 * Covers over Pico board area allow for customization without reprinting whole case. Also contain side
-  vents for convection.
-* Use crkbd/stls/crkbd-case-top-pico.stl for left side keyboard. The same file can be mirrored in slicing software to create right side case.
+  vents for convective cooling.
+* Used crkbd/stls/crkbd-case-top-pico.stl and crkbd/stls/-case-base-pico.stl for left side keyboard. The same file can be mirrored in slicing software to create right side case.
+* crkbd/stls/crkbd-case-top-pico.stl and crkbd/stls/cover_trrs.stl are used as is on both left and right sides.
 
 ### Construction
 
