@@ -37,6 +37,12 @@ Files created prior to 2024 are from the original repository. Files specific to 
 
 ![](images/pico-corne-left-build04-und-w.png)
 
+#### Protective Shell
+
+Added a TPU protective shell. The intent is to protect the PLA case from possible impacts from drops or knocks.
+
+![](images/pico--corne-shell.png)
+
 ## Firmware
 
 Firmware for this project can be found at https://github.com/danpeirce/pico-corne 
