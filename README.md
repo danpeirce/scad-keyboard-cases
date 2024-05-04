@@ -1,12 +1,19 @@
 # Corne Inspired Keyboard Case Modified to use a Raspberry Pi Pico
 
-![](images/pico-corne-left-build05.png) ![](images/pico-corne-right-build01.png)
+![](images/pico--corne-shell-L.png) ![](images/pico--corne-shell-R.png)
 
 This repository is a fork of https://github.com/Lenbok/scad-keyboard-cases .
 That repository is set up to allow the generation of generalized keyboard cases using
 a python script to generate a base OpenSCAD design. There was already and example of a Corne case in the original repository so I have used that example as a 
 starting point. I wanted that basic physical switch layout but 
 also adjusted the case to permit the use of the Raspberry Pi Pico microcontroller board. The Pico required more space than the orignal MCU.
+A TPU shell and guard posts were added. Also added tending pegs and internal spacers (spacers go inside shell).
+
+Screws were added to hold it together.
+
+* M2 x16
+* M2.5 to connect top to base x10 
+* M4 with locking nuts for guard posts x8
 
 Standoffs and holes for mounting the Pico board were added. Additional mounting holes were added for small removable covers to allow for future customization.
 I am using the two sides of the keyboard without direct connection between them. One customization could possibly be to add connectors for connection to the other 
@@ -17,6 +24,7 @@ side of the keyboard.
 Files created prior to 2024 are from the original repository. Files specific to this fork are all modified or created in 2024.
 	 
 ## Pico-Corne Keyboard
+
 ![](images/pico-corne-left-build04.png) 
 
 * Light from RPi Pico board piped outside case by short piece of clear PETG filament.
@@ -24,6 +32,8 @@ Files created prior to 2024 are from the original repository. Files specific to 
   vents for convective cooling.
 * Used crkbd/stls/crkbd-case-top-pico.stl and crkbd/stls/-case-base-pico.stl for left side keyboard. The same file can be mirrored in slicing software to create right side case.
 * crkbd/stls/crkbd-case-top-pico.stl and crkbd/stls/cover_trrs.stl are used as is on both left and right sides.
+
+![](images/pico-corne-left-build05.png) ![](images/pico-corne-right-build01.png)
 
 ### Construction
 
