@@ -22,6 +22,12 @@ side of the keyboard.
 * https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 
 Files created prior to 2024 are from the original repository. Files specific to this fork are all modified or created in 2024.
+
+## Added Tending Supports
+
+![](images/pico--corne-tent-L.png) ![](images/pico--corne-tent2-R.png)
+
+Each side of the keyboard can be press fit into the tenting support. The supports are made of flexible TPU but have enough infill to be semi-rigid.
 	 
 ## Pico-Corne Keyboard
 
