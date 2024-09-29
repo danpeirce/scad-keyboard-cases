@@ -23,7 +23,7 @@ side of the keyboard.
 
 Files created prior to 2024 are from the original repository. Files specific to this fork are all modified or created in 2024.
 
-## Added Tending Supports
+## Added Tenting Supports
 
 ![](images/pico--corne-tent-L.png) ![](images/pico--corne-tent2-R.png)
 
