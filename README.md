@@ -43,6 +43,8 @@ Each side of the keyboard can be press fit into the tenting support. The support
 
 ### Construction
 
+[![construction of left side of keyboard](https://img.youtube.com/vi/Hs4WmTu5av8/0.jpg)](https://www.youtube.com/watch?v=Hs4WmTu5av8)
+
 ![](images/pico-corne-left-build01.png)
 
 ![](images/pico-corne-left-build03.png)
