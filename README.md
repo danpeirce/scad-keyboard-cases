@@ -45,6 +45,9 @@ Each side of the keyboard can be press fit into the tenting support. The support
 
 Image links to youtube! [![construction of left side of keyboard](https://img.youtube.com/vi/Hs4WmTu5av8/0.jpg)](https://www.youtube.com/watch?v=Hs4WmTu5av8)
 
+* The image above is a link to a youtube video showing how the parts of the left side of the keyboard go together. This video was created using Blender and as such is CGI.
+* The images below are photographs of the actual physical keyboard.
+
 ![](images/pico-corne-left-build01.png)
 
 ![](images/pico-corne-left-build03.png)
